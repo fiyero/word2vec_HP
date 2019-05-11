@@ -26,3 +26,9 @@ I am glad the model doesn’t return “harry” for me.<br/>
 ## Get the cosine similarity between words:
 ![p5](https://cdn-images-1.medium.com/max/800/1*hw9LbrHqlfhndEq5Rk97tA.png)<br/>
 We can get the similarity value between words for comparison. When I was young, people always hope Hermione can be together with Harry. You know what, according to this model maybe Harry should be married with Ron as they are more related to each other.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+### More about me
+[[:pencil:My Medium]](https://medium.com/@patrickhk)<br/>
+[[:house_with_garden:My Website]](https://www.fiyeroleung.com/)<br/>
+[[:space_invader:	My Github]](https://github.com/fiyero)<br/>
