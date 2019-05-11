@@ -13,7 +13,7 @@ Then we pass the content into gensim.models.Word2Vec, we can fine tune the hyper
 ![p2](https://cdn-images-1.medium.com/max/800/1*ePr30n-4QHDyi_QecdNuUQ.png)<br/>
 
 ## See the cosine similarity of words:
-We can see which words are most similar to our target words. Being similar doesn’t mean must have similar meaning, we can regard them as having some sort of relationship.
+We can see which words are most similar to our target words. Being similar doesn’t mean must have similar meaning, we can regard them as having some sort of relationship.<br/>
 ![p3](https://cdn-images-1.medium.com/max/800/1*XXnGWDg1N6a54d13eWllqA.png)<br/>
 
 We try the word “fight” in our Word2vec model and get the above 10 words. The top 3 results “kill, die, control” are obviously related to “fight”. Initially I have no idea what is kedavra and avada, then I google and find that “Avada Kedavra” is the spell to make Instant death in Harry Potter world. Well, these two words are definitely related to “fight” for sure. <br/>
@@ -24,5 +24,5 @@ Except finding the most similar words, we can also find the odd word<br/>
 I am glad the model doesn’t return “harry” for me.<br/>
 
 ## Get the cosine similarity between words:
-![p5](https://cdn-images-1.medium.com/max/800/1*hw9LbrHqlfhndEq5Rk97tA.png)
+![p5](https://cdn-images-1.medium.com/max/800/1*hw9LbrHqlfhndEq5Rk97tA.png)<br/>
 We can get the similarity value between words for comparison. When I was young, people always hope Hermione can be together with Harry. You know what, according to this model maybe Harry should be married with Ron as they are more related to each other.
