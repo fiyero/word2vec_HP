@@ -27,6 +27,11 @@ I am glad the model doesn’t return “harry” for me.<br/>
 ![p5](https://cdn-images-1.medium.com/max/800/1*hw9LbrHqlfhndEq5Rk97tA.png)<br/>
 We can get the similarity value between words for comparison. When I was young, people always hope Hermione can be together with Harry. You know what, according to this model maybe Harry should be married with Ron as they are more related to each other.
 
+## Data visualization:
+Since the embedding layer have very high dimension, we have to use PCA/t-sne to reduce the dimension for visualization.<br/>
+![p6](https://cdn-images-1.medium.com/max/800/1*SoLzK4gFl4ajZNzeNx6pNQ.png)<br/>
+Since there are total 15865 word vectors in this model, it is impractical to visualize every word vector in one single plot. Therefore I select [‘harry’,’ron’,’hermione’,’wand’,’car’,’train’,’water’] as example. We can see that Name characters ‘harry’,’ron’,’hermione’ tend to cluster together, transportation “train” and “car” form another cluster. This is the main essence of word2vec, similar words stay closer to each other.
+
 -------------------------------------------------------------------------------------------------------------------------------------
 ### More about me
 [[:pencil:My Medium]](https://medium.com/@patrickhk)<br/>
